@@ -7,8 +7,8 @@
         <div class="col-12">
           <div class="row align-items-center">
             <div class="col-lg-6 mb-4">
-              <h1 data-aos="fade-up" data-aos-delay="100">IHBS Counseling Guidance</h1>
-              <p class="mb-4" data-aos="fade-up" data-aos-delay="200">Welcome to IHBS Counseling Information System.</p>
+              <h1 data-aos="fade-up" data-aos-delay="100"><span style="color: darkolivegreen">IHBS</span> Counseling Guidance</h1>
+              <p class="mb-4" data-aos="fade-up" data-aos-delay="200">Welcome to <span style="color: darkolivegreen">IHBS</span> Counseling Information System.</p>
 
             </div>
 
@@ -44,18 +44,32 @@
 
     <div class="row">
       <div class="col-md-6">
-        <h3>About IHBS CG</h3>
+        <h3>About <span style="color: darkolivegreen">IHBS</span>CG</h3>
         <p>This information system was created to 
-          facilitate teachers and guardians of students in monitoring the development of adab and morals of students while in the mahad.</p>
+          facilitate teachers and guardians of students in monitoring the development of adab and morals of students while in the mahad.
+        </p>
+        <p>
+        In language, CG comes from the words guidance and counselling. Guidance has the meaning of providing assistance to others who need 
+        it with the aim of making it easier for them to solve the problems faced and find the potential that exists in themselves.
+        Referring to this conclusion, the intended guidance is given to students or learners so that they can find solutions to the problems 
+        they face. Guidance is also given to help students discover their potential and abilities. Meanwhile, the definition of counselling
+        is assistance given to someone with the aim that the person concerned is able to solve the problems faced through methods tailored to 
+        the individual's condition, for example by interviewing. So that from the meaning of the two words it can be concluded that Guidance 
+        Counselling (BK) is a series of activities that aim to provide assistance by experts to individuals through face-to-face, providing 
+        additional knowledge and other ways that are given systematically and continuously. At school, the task of the counselling teacher 
+        is to provide assistance to students so that they can achieve their developmental tasks optimally in their role as a person, social 
+        being and creature of Allah.
+        </p>
       </div>
 
+      <!-- <div class="col-md-6 ml-auto">
+        <img src="assets/oneschool/images/santri1.jpg">
+      </div> -->
       <div class="col-md-6 ml-auto">
-        <h3>Links</h3>
-        <ul class="list-unstyled footer-links">
-          <li><a href="#home-section">Home</a></li>
-          <li><a href="#about-section">About</a></li>
-        </ul>
+        <h1><center><span style="color: white">.</span></center></h1>
+        <img src="assets/oneschool/images/santri5.jpg" style="display:block; margin:auto;">
       </div>
+
 
     </div>
   </div>
