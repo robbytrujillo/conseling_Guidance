@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>IHBS-CG</title>
+  <title>IHBSCG</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="<?= base_url('assets/oneschool/'); ?>css/style.css">
   <!-- Toastr -->
   <link rel="stylesheet" href="<?= base_url('assets/AdminLTE-3.0.5/'); ?>plugins/toastr/toastr.min.css">
-
+  <link rel="icon" href="../assets/AdminLTE-3.0.5/dist/img/ihbs-logo.png">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">

@@ -3,7 +3,7 @@
       <a href="<?= base_url('Admin');?>" class="brand-link">
         <img src="<?= base_url('assets/AdminLTE-3.0.5/');?>dist/img/IHBS-ico.ico" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
         style="opacity: .8">
-        <span class="brand-text font-weight-light">IHBS-CG</span>
+        <span class="brand-text font-weight-light">IHBSCG</span>
       </a>
 
       <!-- Sidebar -->

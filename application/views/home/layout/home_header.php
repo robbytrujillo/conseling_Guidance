@@ -20,7 +20,7 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="<?= base_url();?>"><span>IHBS</span>-CG</a></div>
+          <div class="site-logo mr-auto w-25"><a href="<?= base_url();?>"><span>IHBS</span>CG</a></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
