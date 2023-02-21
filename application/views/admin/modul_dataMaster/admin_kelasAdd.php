@@ -62,6 +62,9 @@
                       <label for="addKelasKelas">Kelas</label>
                       <select id="addKelasKelas" name="kelas" class="form-control select2" style="width: 100%;">
                         <option value="" selected="selected">Pilih Kategori Kelas</option>
+                        <option value="X">7</option>
+                        <option value="XI">8</option>
+                        <option value="XII">9</option>
                         <option value="X">10</option>
                         <option value="XI">11</option>
                         <option value="XII">12</option>
