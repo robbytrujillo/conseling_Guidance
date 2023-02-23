@@ -63,12 +63,20 @@
                         <!-- form-group -->
                         <div class="form-group">
                           <label for="kelas">Kategori Kelas</label>
-                          <?php if($onepel->sub_class == 'XII') {
-                            echo '<input type="text" class="form-control" id="kelas" placeholder="Kategori Kelas" value="12" readonly>';
+                          <?php if($onepel->sub_class == 'VII') {
+                            echo '<input type="text" class="form-control" id="kelas" placeholder="Kategori Kelas" value="7" readonly>';
+                          }elseif($onepel->sub_class == 'VIII'){
+                            echo '<input type="text" class="form-control" id="kelas" placeholder="Kategori Kelas" value="8" readonly>';
+                          }elseif($onepel->sub_class == 'IX'){
+                            echo '<input type="text" class="form-control" id="kelas" placeholder="Kategori Kelas" value="9" readonly>';
+                          }elseif($onepel->sub_class == 'X'){
+                            echo '<input type="text" class="form-control" id="kelas" placeholder="Kategori Kelas" value="10" readonly>';
                           }elseif($onepel->sub_class == 'XI'){
                             echo '<input type="text" class="form-control" id="kelas" placeholder="Kategori Kelas" value="11" readonly>';
+                          }elseif($onepel->sub_class == 'XII'){
+                            echo '<input type="text" class="form-control" id="kelas" placeholder="Kategori Kelas" value="12" readonly>';
                           }else{
-                            echo '<input type="text" class="form-control" id="kelas" placeholder="Kategori Kelas" value="10" readonly>';
+                            echo '<input type="text" class="form-control" id="kelas" placeholder="Kategori Kelas" value="-" readonly>';
                           };?>
                         </div>
                         <!-- /.form-group -->
@@ -124,7 +132,7 @@
 
                     <!-- Catatan -->
                     <div class="form-group">
-                      <label for="catatan" class="col-form-label">Catatan</label>
+                      <label for="catatan" class="col-form-label">Berkah Pondok</label>
                       <textarea type="text" name="catatan" class="form-control" id="catatan" placeholder="Catatan" readonly><?= $onepel->note?></textarea>
                       <?= form_error('catatan', '<small class="text-danger pl-3">', '</small>');?>
                     </div>

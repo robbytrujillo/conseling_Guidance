@@ -48,7 +48,7 @@
             <div class="col-12">
               <div class="callout callout-danger">
                 <h5><i class="fas fa-info"></i> Note:</h5>
-                Silahkan Melengkapi Form Untuk Menampilkan Data yang di inginkan?>
+                Silahkan Melengkapi Form Untuk Menampilkan Data yang di inginkan
               </div>
             </div>
             <!--/. Col -->

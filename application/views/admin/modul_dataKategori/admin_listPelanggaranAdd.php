@@ -65,6 +65,9 @@
                           <label for="kelas">Kategori Kelas</label>
                           <select id="kelas" name="kelas" class="form-control select2" style="width: 100%;">
                             <option value="I" selected="selected">Pilih Kategori Kelas</option>
+                            <option value="VII">7</option>
+                            <option value="VIII">8</option>
+                            <option value="IX">9</option>
                             <option value="X">10</option>
                             <option value="XI">11</option>
                             <option value="XII">12</option>
@@ -95,7 +98,7 @@
                     <div class="form-group">
                       <label for="namaSiswa">Nama Siswa</label>
                       <select id="namaSiswa" name="namaSiswa" class="form-control select2" style="width: 100%;">
-                        <option selected="selected">Pilih Kategori Kelas Terlebih Dahulu</option>
+                        <option selected="selected">Pilih Nama Siswa Terlebih Dahulu</option>
                       </select>
                       <?= form_error('namaSiswa', '<small class="text-danger pl-3">', '</small>');?>
                     </div>
@@ -133,7 +136,7 @@
 
                     <!-- Catatan -->
                     <div class="form-group">
-                      <label for="catatan" class="col-form-label">Catatan</label>
+                      <label for="catatan" class="col-form-label">Berkah Pondok</label>
                       <textarea type="text" name="catatan" class="form-control" id="catatan" placeholder="Catatan"><?= set_value('catatan')?></textarea>
                       <?= form_error('catatan', '<small class="text-danger pl-3">', '</small>');?>
                     </div>
