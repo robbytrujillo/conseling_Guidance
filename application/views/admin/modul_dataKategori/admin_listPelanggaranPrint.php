@@ -16,12 +16,12 @@
 </head>
 <body onload="window.print()">
   <p style="text-align:center"><img alt="" src="<?= base_url('assets/sips/');?>img/logo1.png" style="float:left; height:100px; width:100px " />
-    <span style="font-size:20px"><span style="font-family:Times New Roman,Times,serif">PEMERINTAH KABUPATEN WONOSOBO
+    <span style="font-size:20px"><span style="font-family:Times New Roman,Times,serif">
       <img class="hidden" alt="" src="<?= base_url('assets/sips/');?>img/logo1.png " style="float:right; height:100px; width:100px; " /><br />
-      DINAS PENDIDIKAN PEMUDA DAN OLAHRAGA<br />
-      <strong><?= $oneWeb->school_name ;?></strong><br />
-      <span style="font-size: 16px;">Alamat : Jl. Nyi Wiro Kel. Kaliwiro Kab. Wonosobo 56364</span><br />
-      <span style="font-size: 14px;">email : smkandalusia2kaliwiro@gmail.com HP : 08112888501</span></span></span></p>
+      YAYASAN DAKWAH ISLAM CAHAYA ILMU<br />
+      <strong>IBNU HAJAR BOARDING SCHOOL</strong><br />
+      <span style="font-size: 16px;">Alamat : Jl. Mushola Fathul Ulum No.11, RT.9/RW.1, Munjul, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13850</span><br />
+      <span style="font-size: 14px;">Email : info@ihbs.sch.id Telepon : 02184312279</span></span></span></p>
 
       <hr style="border: 1px groove #000000; margin-top: -10px;" />
       <hr style="border: 2px groove #000000; margin-top: -5px;"/>
@@ -91,7 +91,7 @@
                   <span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">Orang Tua / Wali</span></span></td>
                   <td>&nbsp;</td>
                   <td style="width:200px">
-                    <p style="text-align:center"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">Wonosobo,<?=date('Y-m-d')?><br />
+                    <p style="text-align:center"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">Jakarta,<?=date('d-m-Y')?><br />
                     Yang Membuat</span></span></p>
                   </td>
                 </tr>

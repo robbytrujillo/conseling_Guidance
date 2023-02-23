@@ -2066,19 +2066,19 @@ pre code {
 	box-shadow: 0 0 0 0.2rem rgba(121, 113, 234, 0.25);
 }
 .form-control::-webkit-input-placeholder {
-	color: #eef7d2;
+	color: #44494e;
 	opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-	color: #eef7d2;
+	color: #44494e;
 	opacity: 1;
 }
 .form-control::-ms-input-placeholder {
-	color: #eef7d2;
+	color: #44494e;
 	opacity: 1;
 }
 .form-control::placeholder {
-	color: #eef7d2;
+	color: #44494e;
 	opacity: 1;
 }
 .form-control:disabled,
