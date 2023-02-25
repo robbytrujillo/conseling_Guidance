@@ -53,7 +53,7 @@
 
               <?= form_open_multipart('Siswa/Profile');?>
 
-                <input type="hidden" name="z" value="<?= $oneSiswa->nisn ;?>">
+                <input type="hidden" name="z" value="<?= $oneSiswa->nisn; ?>">
 
                 <!-- form-group -->
                 <div class="form-group">
