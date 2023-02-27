@@ -124,7 +124,7 @@
 
                     <!-- Catatan -->
                     <div class="form-group">
-                      <label for="catatan" class="col-form-label">Catatan</label>
+                      <label for="catatan" class="col-form-label">Berkah Pondok</label>
                       <textarea type="text" name="catatan" class="form-control" id="catatan" placeholder="Catatan" readonly><?= $onepel->note?></textarea>
                       <?= form_error('catatan', '<small class="text-danger pl-3">', '</small>');?>
                     </div>
