@@ -125,7 +125,7 @@
                               <option value="IX">9</option>
                               <option value="X">10</option>
                               <option value="XI">11</option>
-                              <option value="XII">12</option>
+                              <option value="XII" selected>12</option>
                               ';
                             }
                             echo $output;
