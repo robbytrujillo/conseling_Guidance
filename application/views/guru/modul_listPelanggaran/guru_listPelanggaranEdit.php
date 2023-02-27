@@ -67,16 +67,52 @@
                         <div class="form-group">
                           <label for="kelas">Kategori Kelas</label>
                           <select id="kelas" name="kelas" class="form-control select2" style="width: 100%;">
-                            <?php if($onepel->sub_class == 'XII') {
+                            <?php if($onepel->sub_class == 'VII') {
                               $output .= '
                               <option value="I">Pilih Kategori Kelas</option>
+                              <option value="VII" selected>7</option>
+                              <option value="VIII">8</option>
+                              <option value="IX">9</option>
                               <option value="X">10</option>
                               <option value="XI">11</option>
-                              <option value="XII" selected>12</option>
+                              <option value="XII">12</option>
+                              ';
+                            }elseif($onepel->sub_class == 'VIII'){
+                              $output .= '
+                              <option value="I">Pilih Kategori Kelas</option>
+                              <option value="VII">7</option>
+                              <option value="VIII selected">8</option>
+                              <option value="IX">9</option>
+                              <option value="X">10</option>
+                              <option value="XI">11</option>
+                              <option value="XII">12</option>
+                              ';
+                            }elseif($onepel->sub_class == 'IX'){
+                              $output .= '
+                              <option value="I">Pilih Kategori Kelas</option>
+                              <option value="VII">7</option>
+                              <option value="VIII">8</option>
+                              <option value="IX" selected>9</option>
+                              <option value="X">10</option>
+                              <option value="XI">11</option>
+                              <option value="XII">12</option>
+                              ';
+                            }elseif($onepel->sub_class == 'X'){
+                              $output .= '
+                              <option value="I">Pilih Kategori Kelas</option>
+                              <option value="VII">7</option>
+                              <option value="VIII">8</option>
+                              <option value="IX">9</option>
+                              <option value="X" selected>10</option>
+                              <option value="XI">11</option>
+                              <option value="XII">12</option>
                               ';
                             }elseif($onepel->sub_class == 'XI'){
                               $output .= '
                               <option value="I">Pilih Kategori Kelas</option>
+                              <option value="VII">7</option>
+                              <option value="VIII">8</option>
+                              <option value="IX">9</option>
                               <option value="X">10</option>
                               <option value="XI" selected>11</option>
                               <option value="XII">12</option>
@@ -84,7 +120,10 @@
                             }else{
                               $output .= '
                               <option value="I">Pilih Kategori Kelas</option>
-                              <option value="X"  selected>10</option>
+                              <option value="VII">7</option>
+                              <option value="VIII">8</option>
+                              <option value="IX">9</option>
+                              <option value="X">10</option>
                               <option value="XI">11</option>
                               <option value="XII">12</option>
                               ';
