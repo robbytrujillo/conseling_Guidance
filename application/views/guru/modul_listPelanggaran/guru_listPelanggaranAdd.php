@@ -65,6 +65,9 @@
                           <label for="kelas">Kategori Kelas</label>
                           <select id="kelas" name="kelas" class="form-control select2" style="width: 100%;">
                             <option value="I" selected="selected">Pilih Kategori Kelas</option>
+                            <option value="X">7</option>
+                            <option value="XI">8</option>
+                            <option value="XII">9</option>
                             <option value="X">10</option>
                             <option value="XI">11</option>
                             <option value="XII">12</option>
@@ -133,7 +136,7 @@
 
                     <!-- Catatan -->
                     <div class="form-group">
-                      <label for="catatan" class="col-form-label">Catatan</label>
+                      <label for="catatan" class="col-form-label">Berkah Pondok</label>
                       <textarea type="text" name="catatan" class="form-control" id="catatan" placeholder="Catatan"><?= set_value('catatan')?></textarea>
                       <?= form_error('catatan', '<small class="text-danger pl-3">', '</small>');?>
                     </div>
