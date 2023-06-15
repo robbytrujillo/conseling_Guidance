@@ -28,6 +28,11 @@
   <!-- Toastr -->
   <link rel="stylesheet" href="<?= base_url('assets/AdminLTE-3.0.5/'); ?>plugins/toastr/toastr.min.css">
   <link rel="icon" href="../assets/AdminLTE-3.0.5/dist/img/ihbs-logo.png">
+
+  <!-- script typewritter -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -61,10 +66,31 @@
 
   <script src="<?= base_url('assets/oneschool/'); ?>js/main.js"></script>
 
+  
+
   <!-- Toastr -->
   <script src="<?= base_url('assets/AdminLTE-3.0.5/'); ?>plugins/toastr/toastr.min.js"></script>
+  
+  <!-- Process -->
+  <script>
+    $(document).ready(function() {
+      const typed = new Typed('#typed-text', {
+        strings: ['Adab..', 'Morals..', 'Discipline..'],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true
+      });
+    });
+  </script>
+
   <!-- Me Script-->
   <?php include "home_js.php"; ?>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+
+
+
 </body>
 
 </html>

@@ -35,6 +35,10 @@
   <link rel="stylesheet" href="<?= base_url('assets/AdminLTE-3.0.5/');?>plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <!-- Me cSS -->
   <link rel="stylesheet" href="<?= base_url('assets/sips/');?>css/sips.css">
+
+  <!-- script typewritter -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
   <div class="wrapper">
@@ -98,5 +102,18 @@
 <script src="<?= base_url('assets/AdminLTE-3.0.5/');?>plugins/select2/js/select2.full.min.js"></script>
 <!-- Me JS -->
 <?php include "admin_js.php";?>
+
+<!-- Process -->
+<script>
+    $(document).ready(function() {
+      const typed = new Typed('#typed-text', {
+        strings: ['#', 'IHBS..', 'Counseling..', 'Guidance'],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true
+      });
+    });
+  </script>
+
 </body>
 </html>
